@@ -220,7 +220,7 @@ button.toggler-menu{
 }
 
 
-@media (max-width: 767px){
+@media (max-width: 47.938ren){
     .mob-header{
         display: block;
     }
@@ -315,7 +315,7 @@ button.toggler-menu{
 
 .banner .me{
     position: absolute;
-    right:5vw;
+    right:7vw;
     width: 30vw;
     height: 100%;
     background-size: cover;
