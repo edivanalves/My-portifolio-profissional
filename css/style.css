@@ -409,29 +409,30 @@ button.toggler-menu{
 
 
 /* Oculta .top-fixed em telas menores que 700px */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .banner .top-fixed {
         display: none !important;
     }
 }
 
 /* Ajusta o tamanho do texto e margens para h6 em telas menores que 700px */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .banner .box h6 {
         font-size: 18px;
         margin: 0 0 10px;
+  height: auto;
     }
 }
 
 /* Ajusta o tamanho do texto para h1 em telas maiores ou iguais a 700px */
-@media (min-width: 700px) {
+@media (max-width: 768px) {
     .banner .box h1 {
         font-size: 50px;
     }
 }
 
 /* Ajusta o tamanho do texto e margem inferior para .lead em telas menores que 700px */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .banner .box .lead {
         font-size: 16px;
         margin-bottom: 15px;
@@ -439,10 +440,10 @@ button.toggler-menu{
 }
 
 /* Ajusta a opacidade e largura para .me em telas menores que 700px */
-@media (max-width: 700px) {
+@media (max-width: 768px) {
     .banner .me {
         opacity: 0.4;
-        width: 23vw;
+        width: 50vw;
     }
 }
 
